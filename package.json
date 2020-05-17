@@ -1,16 +1,16 @@
 {
   "name": "express-demo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/xiaoFeng5210/express-demo.git",
-  "author": "qingfengzhang <m15105215616@163.com>",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "ts-node": "^8.10.1",
-    "typescript": "^3.9.2"
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
   },
-  "devDependencies": {
-    "@types/express": "^4.17.6"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
